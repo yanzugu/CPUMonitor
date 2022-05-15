@@ -10,6 +10,7 @@
         d:DataContext="{d:DesignInstance local:ShellViewModel}"
         Title="Stylet Project" Height="100" Width="250"
         Loaded="Window_Loaded" ShowInTaskbar="False" Focusable="False"
+        StateChanged="Window_StateChanged"
         AllowsTransparency="True" Background="Transparent" WindowStyle="None" ResizeMode="NoResize" >
 
     <Window.Resources>
